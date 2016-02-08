@@ -8,10 +8,12 @@
 
   <title>Chiro Don Bosco Hoboken</title>
 
+  <!-- Normalize CSS -->
+  <link href="/node_modules/normalize.css/normalize.css" rel="stylesheet">
   <!-- Bootstrap -->
-  <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Optional Bootstrap Theme -->
-  <link href="/assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -20,6 +22,6 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
