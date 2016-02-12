@@ -7,13 +7,15 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
   <title>Chiro Don Bosco Hoboken</title>
-
+  <link rel="shortcut icon" href="/images/chirologo_rounded_64.ico">
   <!-- Normalize CSS -->
   <link href="/node_modules/normalize.css/normalize.css" rel="stylesheet">
   <!-- Bootstrap -->
   <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Optional Bootstrap Theme -->
   <link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link href="/css/custom_main.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +36,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Brand</a>
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="/images/logodbh.png" />
+        </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
