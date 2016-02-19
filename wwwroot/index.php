@@ -75,11 +75,26 @@
       </div>
     </div>
   </nav>
-  <h1>Chiro Don Bosco</h1>
+  <div class="container-fluid">
+    <div class="row row-offcanvas row-offcanvas-right">
+      <div class="col-xs-12 col-sm-9">
+        <p class="pull-right visible-xs">
+          <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+        </p>
+        <h1 class="well">Chiro Don Bosco</h1>
+      </div>
+      <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+        <div class="list-group">
+          <a class="list-group-item" href=#>Sidebar</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/js/offcanvas.js"></script>
 </body>
 </html>
