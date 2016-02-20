@@ -69,6 +69,7 @@
         <form class="navbar-form navbar-right" role="search">
           <button type="button" class="btn btn-default">
             <span class="glyphicon glyphicon-user"></span>
+            <span class="sr-only">Login</span>
           </button>
         </form>
       </div>
