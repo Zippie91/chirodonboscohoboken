@@ -67,21 +67,26 @@
           <li><a href="#">Contact</a></li>
         </ul>
         <form class="navbar-form navbar-right" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Zoek</button>
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-user"></span>
+          </button>
         </form>
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">
       <div class="col-xs-12 col-sm-9">
         <p class="pull-right visible-xs">
           <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
         </p>
-        <h1 class="well">Chiro Don Bosco</h1>
+        <div class="jumbotron">
+          <h1>Chiro Don Bosco</h1>
+          <p>
+            Welkom bij Chiro Don Bosco. Dit is een voorbeeldtekst. Wat je hier leest heeft van geen enkel belang en dient enkel en alleen als opvulling.
+            Het leuke aan een voorbeeldtekst is dat, hoewel er eigenlijk niets wordt in gezegd, mensen toch de neiging hebben om de tekst volledig te lezen.
+          </p>
+        </div>
       </div>
       <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
         <div class="list-group">
