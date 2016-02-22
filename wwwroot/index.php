@@ -81,12 +81,66 @@
         <p class="pull-right visible-xs">
           <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
         </p>
-        <div class="jumbotron">
+        <div class="well well-lg">
           <h1>Chiro Don Bosco</h1>
-          <p>
+          <p class="lead">
             Welkom bij Chiro Don Bosco. Dit is een voorbeeldtekst. Wat je hier leest heeft van geen enkel belang en dient enkel en alleen als opvulling.
             Het leuke aan een voorbeeldtekst is dat, hoewel er eigenlijk niets wordt in gezegd, mensen toch de neiging hebben om de tekst volledig te lezen.
           </p>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="col-xs-12 col-sm-6">
+              <h5>Test paneel 1 <small><em>Raf Smits</em></small></h5>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <h5 class="text-right"><small class="hidden-xs">dinsdag 23 februari 2016</small></h5>
+              <h6><small class="visible-xs">23 februari 2016</small></h6>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="panel-body">
+            <p>
+              Dit is een testpaneel. Zo zal een paneel eruit zien.
+              Dit paneel zal updates van de leiding bevatten (evenals nieuwe foto's die op de website geplaatst worden -- <i>Work in progress</i>)
+            </p>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="col-xs-12 col-sm-6">
+              <h5>Test paneel 2 <small><em>Raf Smits</em></small></h5>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <h5 class="text-right"><small class="hidden-xs">dinsdag 23 februari 2016</small></h5>
+              <h6><small class="visible-xs">23 februari 2016</small></h6>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="panel-body">
+            <p>
+              Dit is een testpaneel. Zo zal een paneel eruit zien.
+              Dit paneel zal updates van de leiding bevatten (evenals nieuwe foto's die op de website geplaatst worden -- <i>Work in progress</i>)
+            </p>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="col-xs-12 col-sm-6">
+              <h5>Test paneel 3 <small><em>Raf Smits</em></small></h5>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <h5 class="text-right"><small class="hidden-xs">dinsdag 23 februari 2016</small></h5>
+              <h6><small class="visible-xs">23 februari 2016</small></h6>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="panel-body">
+            <p>
+              Dit is een testpaneel. Zo zal een paneel eruit zien.
+              Dit paneel zal updates van de leiding bevatten (evenals nieuwe foto's die op de website geplaatst worden -- <i>Work in progress</i>)
+            </p>
+          </div>
         </div>
       </div>
       <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
