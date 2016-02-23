@@ -12,6 +12,29 @@ html, body {
 }
 
 /*
+ * Panels
+ * --------------------------------------------------
+ */
+
+@media screen and (max-width: 767px) {
+  .panel-heading {
+    padding: 0 15px; 
+  }
+
+  .panel-heading h6 {
+    margin-top: 2px;
+  }
+
+  .panel-heading h5 {
+    margin-bottom: 2px;
+  }
+
+  .panel-heading .text-right {
+    display: none;
+  }
+}
+
+/*
  * Off Canvas
  * --------------------------------------------------
  */

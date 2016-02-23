@@ -145,7 +145,7 @@
       </div>
       <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
         <div class="list-group">
-          <a class="list-group-item" href=#>Sidebar</a>
+          <a class="list-group-item" href="#">Sidebar</a>
         </div>
       </div>
     </div>
