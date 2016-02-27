@@ -79,14 +79,26 @@
     <div class="row row-offcanvas row-offcanvas-right">
       <div class="col-xs-12 col-sm-9">
         <p class="pull-right visible-xs">
-          <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><span class="span-offcanvas glyphicon glyphicon-chevron-right"></span></button>
         </p>
         <div class="well well-lg">
           <h1>Chiro Don Bosco</h1>
-          <p class="lead">
-            Welkom bij Chiro Don Bosco. Dit is een voorbeeldtekst. Wat je hier leest heeft van geen enkel belang en dient enkel en alleen als opvulling.
-            Het leuke aan een voorbeeldtekst is dat, hoewel er eigenlijk niets wordt in gezegd, mensen toch de neiging hebben om de tekst volledig te lezen.
-          </p>
+          <div>
+            <!-- Nav pills -->
+            <ul class="nav nav-pills" role="tablist">
+              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="pill">Home</a></li>
+              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="pill">Profile</a></li>
+              <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="pill">Messages</a></li>
+              <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="pill">Settings</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade in active" id="home">...</div>
+              <div role="tabpanel" class="tab-pane fade" id="profile">...</div>
+              <div role="tabpanel" class="tab-pane fade" id="messages">...</div>
+              <div role="tabpanel" class="tab-pane fade" id="settings">...</div>
+            </div>
+          </div>
         </div>
         <div class="panel panel-default">
           <div class="panel-heading">
