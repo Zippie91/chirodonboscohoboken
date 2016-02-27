@@ -86,14 +86,14 @@
           <div>
             <!-- Nav pills -->
             <ul class="nav nav-pills" role="tablist">
-              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="pill">Home</a></li>
-              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="pill">Profile</a></li>
-              <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="pill">Messages</a></li>
-              <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="pill">Settings</a></li>
+              <li role="presentation" class="active"><a href="#wat" aria-controls="home" role="tab" data-toggle="pill">Wat is Chiro?</a></li>
+              <li role="presentation"><a href="#wie" aria-controls="profile" role="tab" data-toggle="pill"></a></li>
+              <li role="presentation"><a href="#waar" aria-controls="messages" role="tab" data-toggle="pill">Messages</a></li>
+              <li role="presentation"><a href="#wanneer" aria-controls="settings" role="tab" data-toggle="pill">Settings</a></li>
             </ul>
             <!-- Tab panes -->
             <div class="tab-content">
-              <div role="tabpanel" class="tab-pane fade in active" id="home">...</div>
+              <div role="tabpanel" class="tab-pane fade in active" id="wat">...</div>
               <div role="tabpanel" class="tab-pane fade" id="profile">...</div>
               <div role="tabpanel" class="tab-pane fade" id="messages">...</div>
               <div role="tabpanel" class="tab-pane fade" id="settings">...</div>
