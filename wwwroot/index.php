@@ -227,8 +227,58 @@
             Gastenboek
           </a>
           <div id="collapseGast" class="collapse in">
-            <div class="panel-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <div class="panel-body" id="chatbox">
+              <ul class="chat">
+                <li class="clearfix chatmsg">
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <strong class="primary-font">Jack Sparrow Strongarm</strong>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet,
+                    </p>
+                  </div>
+                </li>
+                <li class="chatmsg clearfix">
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <strong class="primary-font">Bhaumik Patel</strong>
+                    </div>
+                    <p>
+                      Er werd toen veel gezegd. Moeder stond op en keek naar Jan. Haar gezicht was vuurrood en ze maakte zich klaar om te roepen.
+                    </p>
+                  </div>
+                </li>
+                <li class="clearfix chatmsg">
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <strong class="primary-font">Jack Sparrow Strongarm</strong>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet,
+                    </p>
+                  </div>
+                </li>
+                <li class="chatmsg clearfix">
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <strong class="primary-font">Bhaumik Patel</strong>
+                    </div>
+                    <p>
+                      Er werd toen veel gezegd. Moeder stond op en keek naar Jan. Haar gezicht was vuurrood en ze maakte zich klaar om te roepen.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+            <div class="panel-footer">
+              <div class="input-group">
+                <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                <span class="input-group-btn">
+                  <button class="btn btn-warning btn-sm" id="btn-chat">Stuur</button>
+                </span>
+              </div>
             </div>
           </div>
           <a class="list-group-item">
