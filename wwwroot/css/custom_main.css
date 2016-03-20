@@ -114,3 +114,12 @@ html, body {
     overflow-y: scroll;
     height: 250px;
 }
+
+/*
+ * Foto's
+ * --------------------------------------------------
+ */
+
+#collapseFoto {
+  padding: 5px 0;
+}

@@ -87,16 +87,16 @@
             <!-- Nav pills -->
             <ul class="nav nav-pills" role="tablist">
               <li role="presentation" class="active"><a href="#wat" aria-controls="home" role="tab" data-toggle="pill">Wat is Chiro?</a></li>
-              <li role="presentation"><a href="#wie" aria-controls="profile" role="tab" data-toggle="pill"></a></li>
+              <li role="presentation"><a href="#wie" aria-controls="profile" role="tab" data-toggle="pill">Feest</a></li>
               <li role="presentation"><a href="#waar" aria-controls="messages" role="tab" data-toggle="pill">Messages</a></li>
               <li role="presentation"><a href="#wanneer" aria-controls="settings" role="tab" data-toggle="pill">Settings</a></li>
             </ul>
             <!-- Tab panes -->
             <div class="tab-content">
-              <div role="tabpanel" class="tab-pane fade in active" id="wat">...</div>
-              <div role="tabpanel" class="tab-pane fade" id="profile">...</div>
-              <div role="tabpanel" class="tab-pane fade" id="messages">...</div>
-              <div role="tabpanel" class="tab-pane fade" id="settings">...</div>
+              <div role="tabpanel" class="tab-pane fade in active" id="wat">Dit is Chiro!</div>
+              <div role="tabpanel" class="tab-pane fade" id="wie">Wij zijn Chiro!</div>
+              <div role="tabpanel" class="tab-pane fade" id="waar">Hier is de Chiro!</div>
+              <div role="tabpanel" class="tab-pane fade" id="wanneer">Altijd en Overal</div>
             </div>
           </div>
         </div>
@@ -281,9 +281,13 @@
               </div>
             </div>
           </div>
-          <a class="list-group-item">
+          <a class="list-group-item" href="#collapseFoto" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFoto">
             Foto's
           </a>
+          <div id="collapseFoto" class="collapse in">
+            <img class="img-responsive" src="/images/foto/Testbeeld1080p.png"/>
+            <!--<img class="img-responsive" src="/images/foto/testbeeld1946.jpg"/>-->
+          </div>
         </div>
       </div>
     </div>
