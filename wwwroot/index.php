@@ -11,9 +11,9 @@
   <!-- Normalize CSS -->
   <link href="/node_modules/normalize.css/normalize.css" rel="stylesheet">
   <!-- Bootstrap -->
-  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Optional Bootstrap Theme -->
-  <link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+  <!-- Optional Bootstrap Theme 
+  <link href="/node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet"> -->
   <!-- Custom Styles -->
   <link href="/css/custom_main.css" rel="stylesheet">
 
