@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php ?>
 <html>
 <head>
   <meta charset="utf-8">
@@ -29,7 +29,18 @@
   <?php include('partials/main/mainnav.php'); ?>
   <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">
-      <?php include('partials/home/homepage.php'); ?>
+      <?php 
+	  if(!empty($_GET['page']) {
+	    switch($_GET['page']) {
+		  default: 
+		    include('partials/home/homepage.php');
+		    break;
+	    }
+	  } 
+	  else {
+		include('partials/home/homepage.php');
+	  }
+	  ?>
       <?php include('partials/main/sidebar.php'); ?>
     </div>
   </div>
