@@ -29,18 +29,19 @@
   <?php include('partials/main/mainnav.php'); ?>
   <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">
-      <?php 
-	  if(!empty($_GET['page']) {
-	    switch($_GET['page']) {
-		  default: 
-		    include('partials/home/homepage.php');
-		    break;
+      <?php
+	    if(isset($_GET['page'])) {
+	       switch($_GET['page']) {
+		         default:
+               echo $_GET['page'];
+               include('partials/home/homepage.php');
+		           break;
+	       }
 	    }
-	  } 
-	  else {
-		include('partials/home/homepage.php');
-	  }
-	  ?>
+	    else {
+		    include('partials/home/homepage.php');
+	    }
+	    ?>
       <?php include('partials/main/sidebar.php'); ?>
     </div>
   </div>
