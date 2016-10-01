@@ -1,6 +1,6 @@
 <IfModule rewrite_module>
   RewriteEngine on
-  RewriteBase /www/sites/chirodonboscohoboken
-  RewriteCond %{DOCUMENT_ROOT}/$1 !-f
-  RewriteRule ^([a-z]+)/ /index.php?page=$1
+
+  RewriteRule ^$ index.php?page=home [NC,L]
+  RewriteRule ^([a-z]+)$ index.php?page=$1 [NC,L]
 </IfModule>
