@@ -31,11 +31,12 @@
     <div class="row row-offcanvas row-offcanvas-right">
       <?php
 	    if(isset($_GET['page'])) {
-	       switch($_GET['page']) {
-		         default:
-               echo $_GET['page'];
-               include('partials/home/homepage.php');
-		           break;
+	      switch($_GET['page']) {
+          case 'afdelingen':
+            include('partials/afdelingen/afdelingen.php');
+          default:
+            include('partials/home/homepage.php');
+		        break;
 	       }
 	    }
 	    else {

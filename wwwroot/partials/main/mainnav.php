@@ -20,7 +20,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Afdelingen <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Speelclub</a></li>
+            <li><a href="/afdelingen">Speelclub</a></li>
             <li><a href="#">Rakwi's</a></li>
             <li><a href="#">Tito's</a></li>
             <li><a href="#">Aspi's</a></li>
