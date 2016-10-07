@@ -1,4 +1,4 @@
-<?php include("BootstrapPanel.php"); ?>
+<?php include("BootstrapPanel.class.php"); ?>
 <?php
 class Nieuws
 {

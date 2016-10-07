@@ -1,7 +1,7 @@
 <?php setlocale(LC_ALL, "nl_NL"); ?>
-<?php include("classes/DB.php"); ?>
-<?php include("classes/Hoofding.php"); ?>
-<?php include("classes/Nieuws.php"); ?>
+<?php include("classes/DB.class.php"); ?>
+<?php include("classes/Hoofding.class.php"); ?>
+<?php include("classes/Nieuws.class.php"); ?>
 <html>
 <head>
   <meta charset="utf-8">
