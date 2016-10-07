@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <title>Chiro Don Bosco Hoboken</title>
+  <title><?php echo is_empty($_GET['page']) ? : ($_GET['page'] == 'home' ? "" : "{$_GET['page']} - " ); ?>Chiro Don Bosco Hoboken</title>
   <link rel="shortcut icon" href="/images/chirologo_rounded_64.ico">
   <!-- Normalize CSS -->
   <link href="/node_modules/normalize.css/normalize.css" rel="stylesheet">
