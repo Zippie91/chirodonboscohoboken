@@ -1,4 +1,7 @@
-<?php ?>
+<?php setlocale(LC_ALL, "nl_NL"); ?>
+<?php include("classes/DB.php"); ?>
+<?php include("classes/Hoofding.php"); ?>
+<?php include("classes/Nieuws.php"); ?>
 <html>
 <head>
   <meta charset="utf-8">
@@ -26,6 +29,7 @@
 
 </head>
 <body>
+  <?php $db = new DB(); ?>
   <?php include('partials/main/mainnav.php'); ?>
   <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">
@@ -34,6 +38,7 @@
 	      switch($_GET['page']) {
           case 'afdelingen':
             include('partials/afdelingen/afdelingen.php');
+            break;
           default:
             include('partials/home/homepage.php');
 		        break;
@@ -52,5 +57,6 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="/js/offcanvas.js"></script>
+  <?php $db = null; ?>
 </body>
 </html>
