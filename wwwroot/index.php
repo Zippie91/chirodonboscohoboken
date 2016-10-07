@@ -36,12 +36,24 @@
       <?php
 	    if(isset($_GET['page'])) {
 	      switch($_GET['page']) {
-          case 'afdelingen':
+          case 'home':
+			include('partials/home/homepage.php');
+			break;
+		  case 'afdelingen':
             include('partials/afdelingen/afdelingen.php');
             break;
+		  case 'werkgroepen':
+			include('partials/werkgroepen/werkgroepen.php');
+			break;
+		  case 'verhuur':
+			include('partials/verhuur/verhuur.php');
+			break;
+		  case 'contact':
+			include('partials/contact/contact.php');
+			break;
           default:
             include('partials/home/homepage.php');
-		        break;
+		    break;
 	       }
 	    }
 	    else {
