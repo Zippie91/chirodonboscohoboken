@@ -1,7 +1,7 @@
-<?php setlocale(LC_ALL, "nl_NL"); ?>
+<?php setlocale(LC_ALL, "nl_BE"); ?>
+<?php define(TITLE, "Chiro Don Bosco Hoboken"); ?>
+<?php define(PAGE, ucfirst($_GET['page'])); ?>
 <?php include("classes/DB.class.php"); ?>
-<?php include("classes/Hoofding.class.php"); ?>
-<?php include("classes/Nieuws.class.php"); ?>
 <html>
 <head>
   <meta charset="utf-8">
@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <title><?php echo is_empty($_GET['page']) ? : ($_GET['page'] == 'home' ? "" : "{$_GET['page']} - " ); ?>Chiro Don Bosco Hoboken</title>
+  <title><?php echo PAGE ? (PAGE == "Home" ? TITLE : PAGE . " - " . TITLE) : TITLE; ?></title>
   <link rel="shortcut icon" href="/images/chirologo_rounded_64.ico">
   <!-- Normalize CSS -->
   <link href="/node_modules/normalize.css/normalize.css" rel="stylesheet">
@@ -37,23 +37,23 @@
 	    if(isset($_GET['page'])) {
 	      switch($_GET['page']) {
           case 'home':
-			include('partials/home/homepage.php');
-			break;
-		  case 'afdelingen':
+            include('partials/home/homepage.php');
+			      break;
+		      case 'afdelingen':
             include('partials/afdelingen/afdelingen.php');
             break;
-		  case 'werkgroepen':
-			include('partials/werkgroepen/werkgroepen.php');
-			break;
-		  case 'verhuur':
-			include('partials/verhuur/verhuur.php');
-			break;
-		  case 'contact':
-			include('partials/contact/contact.php');
-			break;
+		      case 'werkgroepen':
+			      include('partials/werkgroepen/werkgroepen.php');
+			      break;
+		      case 'verhuur':
+			      include('partials/verhuur/verhuur.php');
+			      break;
+		      case 'contact':
+			      include('partials/contact/contact.php');
+			      break;
           default:
             include('partials/home/homepage.php');
-		    break;
+		        break;
 	       }
 	    }
 	    else {
