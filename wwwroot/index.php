@@ -2,6 +2,7 @@
 <?php define(TITLE, "Chiro Don Bosco Hoboken"); ?>
 <?php define(PAGE, ucfirst($_GET['page'])); ?>
 <?php include("classes/DB.class.php"); ?>
+<?php include("classes/Dropdown.class.php"); ?>
 <html>
 <head>
   <meta charset="utf-8">
@@ -30,6 +31,9 @@
 </head>
 <body>
   <?php $db = new DB(); ?>
+  <?php $afd = new Dropdown($db); ?>
+  <?php $afd->afdelingen(); ?>
+  <?php $afd->werkgroepen(); ?>
   <?php include('partials/main/mainnav.php'); ?>
   <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">

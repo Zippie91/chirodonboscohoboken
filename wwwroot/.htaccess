@@ -2,5 +2,6 @@
   RewriteEngine on
 
   RewriteRule ^$ index.php?page=home [NC,L]
-  RewriteRule ^([a-z]+)$ index.php?page=$1 [NC,L]
+  RewriteRule ^([a-z]+)$ index.php?page=$1 [NC]
+  RewriteRule ^([a-z]+)/([a-z]+)$ index.php?page=$1&group=$2 [NC,L]
 </IfModule>
