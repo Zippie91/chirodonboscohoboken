@@ -5,7 +5,7 @@ class DB extends PDO
 	{
         if (!$config = parse_ini_file($file, true)) throw new exception('Unable to open ' . $file . '.');
 
-        $dsn = "{$config['database']['engine']}:host={$config['database']['host']};dbname={$config['database']['name']}";
+        $dsn = "{$config['database']['engine']}:host={$config['database']['host']};dbname={$config['database']['name']};charset=utf8";
         $options = array(
             PDO::ATTR_PERSISTENT => true,
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION

@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img alt="Brand" src="/images/logodbh.png" />
       </a>
     </div>
@@ -16,27 +16,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Afdelingen <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/afdelingen">Speelclub</a></li>
-            <li><a href="#">Rakwi's</a></li>
-            <li><a href="#">Tito's</a></li>
-            <li><a href="#">Aspi's</a></li>
-          </ul>
+        <li <?php echo $_GET['page'] == 'home' ? "class='active'" : ""; ?>><a href="/">Home <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown <?php echo $_GET['page'] == 'afdelingen' ? "active" : ""; ?>">
+          <?php $afd->afdelingen(); ?>
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Werkgroepen <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Leiding</a></li>
-            <li><a href="#">VeeBee</a></li>
-            <li><a href="#">Ol&eacute;</a></li>
-            <li><a href="#">VZW</a></li>
-          </ul>
+        <li class="dropdown <?php echo $_GET['page'] == 'werkgroepen' ? "active" : ""; ?>">
+          <?php $afd->werkgroepen(); ?>
         </li>
-        <li><a href="/verhuur">Verhuur</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li <?php echo $_GET['page'] == 'verhuur' ? "class='active'" : ""; ?>><a href="/verhuur">Verhuur</a></li>
+        <li <?php echo $_GET['page'] == 'contact' ? "class='active'" : ""; ?>><a href="/contact">Contact</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <button type="button" class="btn btn-default">

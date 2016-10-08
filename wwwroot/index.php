@@ -32,8 +32,6 @@
 <body>
   <?php $db = new DB(); ?>
   <?php $afd = new Dropdown($db); ?>
-  <?php $afd->afdelingen(); ?>
-  <?php $afd->werkgroepen(); ?>
   <?php include('partials/main/mainnav.php'); ?>
   <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">
