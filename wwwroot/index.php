@@ -11,7 +11,19 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
   <title><?php echo PAGE ? (PAGE == "Home" ? TITLE : PAGE . " - " . TITLE) : TITLE; ?></title>
-  <link rel="shortcut icon" href="/images/chirologo_rounded_64.ico">
+  
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/images/favicons/manifest.json">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#000064">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Chiro Don Bosco">
+  <meta name="application-name" content="Chiro Don Bosco">
+  <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#cc0033">
+
   <!-- Normalize CSS -->
   <link href="/node_modules/normalize.css/normalize.css" rel="stylesheet">
   <!-- Bootstrap -->
